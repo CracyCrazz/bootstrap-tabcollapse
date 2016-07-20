@@ -215,9 +215,9 @@
         var $tabPane = $(tabSelector),
             groupId = $tabPane.attr('id') + '-collapse',
             $panel = $(this.options.accordionTemplate($heading, groupId, parentId, active));
-        $panel.find('.panel-heading h4').on('click', function() {
-            $panel.trigger(activeHead($(this)));
-        });
+            $panel.find('.panel-heading .panel-title').on('click', function() {
+                activeHead($(this));
+            });
         $panel.find('.panel-heading > .panel-title').append(this._tabHeadingToPanelHeading($heading, groupId, parentId, active));
         $panel.find('.panel-body').append($tabPane.contents().detach())
             .data('bs.tabcollapse.tabpane', $tabPane);
