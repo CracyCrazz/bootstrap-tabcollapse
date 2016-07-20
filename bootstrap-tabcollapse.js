@@ -210,7 +210,7 @@
         var activeHead = function(el){
             $('.panel-heading').removeClass('active');
             $(el).parents('.panel-heading').addClass('active');
-        }
+        };
 
         var $tabPane = $(tabSelector),
             groupId = $tabPane.attr('id') + '-collapse',
