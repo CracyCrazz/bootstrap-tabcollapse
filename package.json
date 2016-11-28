@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-tabcollapse",
+  "main": "bootstrap-tabcollapse.js",
+  "version": "0.2.9",
+  "homepage": "https://github.com/cracycrazz/bootstrap-tabcollapse",
+  "authors": [
+    "okendoken (http://flatlogic.com)",
+    "Pascal Poredda <poredda@medienpark.net>"
+  ],
+  "description": "Bootstrap plugin that switches bootstrap tabs component to collapse component for small screens.",
+  "keywords": [
+    "bootstrap",
+    "tabs",
+    "collapse",
+    "responsive"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "1.9.1 - 3",
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "example"
+  ]
+}
